@@ -24,11 +24,13 @@ blocks:
           - checkout
           - cache restore
           - pip install --cache-dir .pip_cache -r requirements.txt
-          - python manage.py makemigrations
-          - python manage.py migrate
-          - python manage.py test
       jobs:
-        - name: Checklist
+        - name: Unit Test
+          commands:
+            - python manage.py makemigrations
+            - python manage.py migrate
+            - python manage.py test
+        - name: CheckList
           commands:
             - python manage.py check --deploy
         - name: Style
