@@ -15,21 +15,22 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         fields = ['url', 'name']
 
 
-class MoveSerializer (serializers.HyperlinkedModelSerializer) :
-    class Meta :
+class MoveSerializer (serializers.HyperlinkedModelSerializer):
+    class Meta:
         model = Move
         fields = ["listOfRingPosition"]
 
 
-class RingPositionSerializer (serializers.HyperlinkedModelSerializer) :
+class RingPositionSerializer (serializers.HyperlinkedModelSerializer):
 
-    class Meta :
+    class Meta:
 
-        model =  RingPosition
-        fields = ["id","label", "color"]
+        model = RingPosition
+        fields = ["id", "label", "color"]
 
-class CubeDataSerializer (serializers.HyperlinkedModelSerializer) :
 
-    class Meta :
-        model =  CubeData
+class CubeDataSerializer (serializers.HyperlinkedModelSerializer):
+
+    class Meta:
+        model = CubeData
         fields = ["userID", "listOfMoves", "numberOfMoves", "status"]

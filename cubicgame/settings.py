@@ -21,8 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY="django-insecure-0xkd4atcdv&^#^-66^2ckl0(#y8(3j71kw!i8@m@x+%"
-#SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = "django-insecure-0xkd4atcdv&^#^-66^2ckl0(#y8(3j71kw!i8@m@x+%"
+# SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -58,7 +58,7 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
 
-## HSTS settings
+# HSTS settings
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
 SECURE_HSTS_SECONDS = 31536000
