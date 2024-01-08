@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cubicgame
+Version: 1.0
+Summary: Cubic game backend API
+Home-page: https://github.com/lemerleau/cubicgame.api
+Author: Dr. Nono Saha Cyrille Merleau (Lemerleau)
+Author-email: csaha@aims.edu.gh
+License: GNUGPL-v3
+Keywords: Cubic,Game,django cubicgame API
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+# cubicgame.api
+Cubical Game backend server. 

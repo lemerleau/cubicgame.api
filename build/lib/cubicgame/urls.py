@@ -26,10 +26,10 @@ router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
 router.register(r'moves', views.MoveViewSet)
 router.register(r'ringposition', views.RingPositionViewSet)
-router.register(r'cubedata', views.CubeDataViewSet)
+# router.register(r'cubedata', views.CubeDataViewSet)
 
 urlpatterns = [
-    path('api/', include((router.urls))),
+    path('', include((router.urls))),
     path('admin/', admin.site.urls),
     path('moves/', views.getAllMove),
     path('cubedata/', views.saveCubeData),
